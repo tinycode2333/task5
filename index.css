@@ -15,6 +15,11 @@ h3{
     color: grey;
 }
 
+#sidebar h3{
+    color: #000000;
+}
+
+
 .author{
     font-size: 7px;
     color: darkgrey;
@@ -46,31 +51,52 @@ ol>li{
 #navigation li{
     display: inline;
     line-height: 60px;
+    color: white;
 }
 
 #footer{
     background-color: #000;
     height: 80px;
+    margin: 0;
 }
 
 #footer p{
     color: white;
     text-align: center;
     line-height: 80px;
+    margin: 0;
 }
 
-#mainbody{
+#middle{
     background-color: #DEDEDE;
-    padding:20px;
+    padding: 20px;
+    position: relative;
 }
+
+#left-body{
+    margin-right:360px;
+}
+
+#right-body{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 360px;
+}
+
 
 .article,.picture{
     background-color: #FFF;
-    margin:10px auto;
+    margin: 0 20px 20px 0 ;
     padding: 20px;
     border-color: #FFF dimgray dimgray #FFF;
     border-style: solid;
 }
+
+#last{
+    margin-bottom: 0;
+}
+
 
 .gakki{
     border: 1px solid grey;
@@ -112,7 +138,7 @@ table th{
 
 #sidebar{
     background-color: #FFF;
-    margin:20px auto;
+    margin:0 0 20px 0;
     padding: 20px;
     border-color: #FFF dimgray dimgray #FFF;
     border-style: solid;
@@ -170,3 +196,4 @@ textarea{
     width: 80%;
     height: 100px;
 }
+

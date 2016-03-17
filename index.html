@@ -17,7 +17,10 @@
     </ul>
 </header>
 
-<div id="mainbody">
+<div id="middle">
+
+<div id="left-body">
+
 <div class="article">
     <h2>蓝翔RAP</h2>
 
@@ -183,7 +186,7 @@
 
 </div>
 
-<div class="article">
+<div class="article" id="last">
     <h2>最后一篇文章一级标题</h2>
 
     <h3>文章二级标题</h3>
@@ -227,69 +230,73 @@
         </tr>
     </table>
 </div>
-
-<div id="sidebar">
-    <div id="line"></div>
-    <h2>这以后是一个侧栏，这是侧栏的标题</h2>
-    <!--<h3>侧栏注册窗口标题</h3>-->
-
-    <form action="#" method="get">
-        <div>
-            <div class="lef">请输入邮箱地址:</div>
-            <div class="rig"><input  type="email" value="这是一个文本输入框"></div>
-        </div>
-        <div>
-            <div class="lef">&nbsp</div>
-            <p class="rig hint">邮箱地址请按要求格式输入</p>
-        </div>
-        <div>
-            <div class="lef">请输入密码:</div>
-            <div class="rig"><input  type="password" value="这是一个文本输入框"></div>
-        </div>
-        <div>
-            <div class="lef">请重复输入密码:</div>
-            <div class="rig"><input  type="password" value="这是一个文本输入框"></div>
-        </div>
-        <div>
-            <div class="lef">&nbsp</div>
-            <p class="rig hint" >密码请为6-16位英文或数字</p>
-        </div>
-        <div>
-            <div class="lef">性别：</div>
-            <div class="rig">
-                <label for="male">男</label>
-                <input type="radio" name="gender" id="male"/>
-                <label for="female">女</label>
-                <input type="radio" name="gender" id="female"/>
-            </div>
-        </div>
-        <div>
-            <div class="lef">城市：</div>
-            <div class="rig">
-                <select>
-                    <option value="beijing">帝都</option>
-                    <option value="tokyo">东京</option>
-                </select>
-            </div>
-            <div class="lef">爱好：</div>
-            <div class="rig">
-                <label for="sport">运动</label>
-                <input type="checkbox" value="运动" id="sport">
-                <label for="art">艺术</label>
-                <input type="checkbox" value="艺术" id="art">
-                <label for="tech">科学</label>
-                <input type="checkbox" value="科学" id="tech">
-            </div>
-        </div>
-        <div>
-            <div class="lef">个人描述：</div>
-            <div class="rig">
-                <textarea name="text">这是一个多行输入框，输入您的个人描述</textarea>
-            </div>
-        </div>
-        <input id="button" type="submit" value="确认提交"/>
-    </form>
 </div>
+
+<div id="right-body">
+    <div id="sidebar">
+        <div id="line"></div>
+        <h3>这以后是一个侧栏，这是侧栏的标题</h3>
+        <!--<h3>侧栏注册窗口标题</h3>-->
+
+        <form action="#" method="get">
+            <div>
+                <div class="lef">请输入邮箱地址:</div>
+                <div class="rig"><input type="email" value="这是一个文本输入框"></div>
+            </div>
+            <div>
+                <div class="lef">&nbsp</div>
+                <p class="rig hint">邮箱地址请按要求格式输入</p>
+            </div>
+            <div>
+                <div class="lef">请输入密码:</div>
+                <div class="rig"><input type="password" value="这是一个文本输入框"></div>
+            </div>
+            <div>
+                <div class="lef">请重复输入密码:</div>
+                <div class="rig"><input type="password" value="这是一个文本输入框"></div>
+            </div>
+            <div>
+                <div class="lef">&nbsp</div>
+                <p class="rig hint">密码请为6-16位英文或数字</p>
+            </div>
+            <div>
+                <div class="lef">性别：</div>
+                <div class="rig">
+                    <label for="male">男</label>
+                    <input type="radio" name="gender" id="male"/>
+                    <label for="female">女</label>
+                    <input type="radio" name="gender" id="female"/>
+                </div>
+            </div>
+            <div>
+                <div class="lef">城市：</div>
+                <div class="rig">
+                    <select>
+                        <option value="beijing">帝都</option>
+                        <option value="tokyo">东京</option>
+                    </select>
+                </div>
+                <div class="lef">爱好：</div>
+                <div class="rig">
+                    <label for="sport">运动</label>
+                    <input type="checkbox" value="运动" id="sport">
+                    <label for="art">艺术</label>
+                    <input type="checkbox" value="艺术" id="art">
+                    <label for="tech">科学</label>
+                    <input type="checkbox" value="科学" id="tech">
+                </div>
+            </div>
+            <div>
+                <div class="lef">个人描述：</div>
+                <div class="rig">
+                    <textarea name="text">这是一个多行输入框，输入您的个人描述</textarea>
+                </div>
+            </div>
+            <input id="button" type="submit" value="确认提交"/>
+        </form>
+    </div>
+</div>
+
 </div>
 
 <footer id="footer">
